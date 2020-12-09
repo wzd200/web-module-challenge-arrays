@@ -47,10 +47,9 @@ Use the copy function below to do the following:
 
 */
 
-function copy(flavorArray){
-    
+function copy(taskOneArray){
+    return [...taskOneArray] ;
 }
-
 
 /* old work lol
 function copy(insertFlavors){
