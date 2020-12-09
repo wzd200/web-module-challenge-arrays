@@ -104,8 +104,9 @@ Use the addFlavor function below to do the following:
     For example: addFlavor("Rainbow Sherbert", originalFlavors) should return the array ["Rainbow Sherbert", "Banana Nut Fudge",..."Vanilla Burnt Almond"]
 */
 
-function addFlavor(flavorArray, newFlavor){
-
+function addFlavor(taskThreeArray, newFlavor){
+    taskThreeArray.unshift(newFlavor);
+    return taskThreeArray
 }
 
 /* old work lol
