@@ -132,8 +132,9 @@ Use the removeLastFlavor function below to do the following:
 */
 
 
-function removeLastFlavor(flawedFlavors){
-
+function removeLastFlavor(taskFourArray){
+    taskFourArray.pop() ;
+    return taskFourArray ;
 }
 
 
