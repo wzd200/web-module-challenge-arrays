@@ -72,8 +72,12 @@ Confirm that an array is exactly 31 flavors. Your function should accept:
 For Example: is31Flavors(originalFlavors) will return true if your code is working properly
 */
 
-function is31Flavors(howManyFlavors){
-
+function is31Flavors(taskTwoArray){
+    if (taskTwoArray.length = 31){
+        return true ;
+    } else {
+        return false ;
+    }
 }
 /* old work lol
 function is31Flavors(howManyFlavors){
